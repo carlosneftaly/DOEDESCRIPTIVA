@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estadística descriptiva</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Estadística descriptiva">
+  <meta name="author" content="Carlos Neftaly Lozano A.">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/EM.png">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>Estadística descriptiva</h1>
+    <h2>Diseño de Experimentos</h2>
+    <p>Carlos Neftaly Lozano A.<br/>Microbiólogo Industrial y Ambiental, Msc</p>
+  </hgroup>
+  <article></article>  
+  <footer class = 'license'>
+    <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
+    <img width = '80px' src = 'http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png'>
+    </a>
+  </footer>
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Definición</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><q>
+La estadística es el estudio de la colección, análisis, interpretación, presentación y organizacón de los datos.
+</q></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Estadística</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/Data.jpg" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Fuente de datos en Microbiología..</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/Escala.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Datos</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<p>En estadística, &#39;los datos&#39; se conceptualizan como un conjunto de  <span style="color:#FF4000">objetos</span> sobre los cuales medimos u observamos una o más <span style="color:#DF0101">características </span>. </p>
+
+<p><img src="./figure/data2.jpg" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Variable</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<p><q> Una característica o atributo que puede  <span style="color:#FF4000">variar</span>  de un individuo a otro. </q></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Variable</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<style>
+  <slide class="" id="slide-6">
+    <hgroup>
+    <h2>Variable</h2>
+  </hgroup>
+    <article>
+    <hr noshade size=4 color='red'>  
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<style>
+  <slide class="{{ slide.class }}" id="{{ slide.id }}">
+    <hgroup>
+    {{{ slide.header }}}
+  </hgroup>
+    <article>
+    <hr noshade size=4 color='red'>  
+    {{{ slide.content }}}  
+    <div class='left' style='float:left;width:48%'>
+    {{{ slide.left.html }}}
+    </div>    
+      <div class='right' style='float:right;width:48%'>
+      {{{ slide.right.html }}}
+      </div>
+        </article>
+        </slide>
+</style>
+        
+  
+    <div class='left' style='float:left;width:48%'>
+    <ul>
+<li><span style="color:orange">Inviduo </span></li>
+<li>Observación</li>
+<li>sujeto</li>
+<li>objeto</li>
+<li>caso</li>
+<li><strong>Unidad experimental</strong></li>
+</ul>
+
+    </div>    
+      <div class='right' style='float:right;width:48%'>
+      <ul>
+<li><span style="color:orange">Variables </span></li>
+<li>Característica</li>
+<li>Atributo</li>
+<li>Rasgo</li>
+</ul>
+
+      </div>
+        </article>
+        </slide>
+</style>
+        
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><q>  Las <span style="color:red"> variables</span> juegan un papel protagónico en la estadística y diseño de experimentos </q></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/flujo.jpg" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/Var.jpg" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><q> Nuestro turno: ejemplo de variables típicas en microbiología.....</q></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><q>¿Cómo convertiríamos una variable <em>cuantitativa</em> en una <em>cualitativa</em> o viceversa? </q></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Caso 1: Unas cuantas manzanas....</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<p><img src="./figure/1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Caso 1: Unas cuantas manzanas....</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/2.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Caso 2: Más manzanas....</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/3.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Caso 2: Más manzanas....</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/4.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>Caso 3: Muchas más manzanas....</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/5.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Caso 3: Muchas más manzanas....</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/6.png" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>Resumiendo variables...</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<ol class = "build incremental">
+<li><p>Tablas de frecuencia</p></li>
+<li><p>Gráficos</p></li>
+<li><p>Resumenes numéricos </p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Resumiendo variables: Tablas de frecuencia</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./figure/fre.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>Resumiendo variables: Tablas de frecuencia</h2>
+  </hgroup>
+  <article data-timings="">
+    <table><thead>
+<tr>
+<th align="center">Acidity</th>
+<th align="center">Conteo</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="center">Low</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Medium</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">High</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>Resumiendo variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<p><img src="./figure/flujoMed.jpg" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    <h2>Medidas de tendencia central</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span style="display:block; height: 2cm;"></span></p>
+
+<ul>
+<li><p>Media: Promedio</p></li>
+<li><p>Mediana: Punto medio o central </p></li>
+<li><p>Moda: Más común o frecuente</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  <hgroup>
+    <h2>Media</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>\[\bar x = \frac{1}{n}\sum_{i = 1}^{n} x_i\]</p>
+
+<p><img src="./figure/media.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  <hgroup>
+    <h2>Mediana</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Es el punto medio o central de una distribución ordenada de valores. </p>
+
+<p><img src="./figure/mediana.png" title="plot of chunk unnamed-chunk-15" alt="plot of chunk unnamed-chunk-15" style="display: block; margin: auto;" /></p>
+
+<p><img src="./figure/mediana2.png" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  <hgroup>
+    <h2>Variables categóricas: Representación gráfica</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Gráfico de tortas</h3>
+
+<p><img src="figure/unnamed-chunk-17-1.png" alt="plot of chunk unnamed-chunk-17"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  <hgroup>
+    <h2>Variables categóricas: Representación gráfica</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Gráfico de barras</h3>
+
+<p><img src="figure/unnamed-chunk-18-1.png" alt="plot of chunk unnamed-chunk-18"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-27" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Definición'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Estadística'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Fuente de datos en Microbiología..'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Datos'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Variable'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Variable'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Variables'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Variables'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Variables'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Variables'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Variables'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Caso 1: Unas cuantas manzanas....'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Caso 1: Unas cuantas manzanas....'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Caso 2: Más manzanas....'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Caso 2: Más manzanas....'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Caso 3: Muchas más manzanas....'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Caso 3: Muchas más manzanas....'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Resumiendo variables...'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Resumiendo variables: Tablas de frecuencia'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Resumiendo variables: Tablas de frecuencia'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Resumiendo variables'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Medidas de tendencia central'>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Media'>
+         23
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Mediana'>
+         24
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Variables categóricas: Representación gráfica'>
+         25
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Variables categóricas: Representación gráfica'>
+         26
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='NA'>
+         27
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
